@@ -27,7 +27,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        nodemon index.js
+        npm start
         npm run test --if-present
 
     - name: Upload artifact for deployment job
